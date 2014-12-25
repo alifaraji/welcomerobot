@@ -1,0 +1,11 @@
+services:
+    alifaraji.welcomerobot.listener:
+        class: alifaraji\welcomerobot\event\listener
+        arguments:
+            - @config
+            - @dbal.conn
+            - @user
+            - %core.root_path%
+            - %core.php_ext%
+        tags:
+            - { name: event.listener }
