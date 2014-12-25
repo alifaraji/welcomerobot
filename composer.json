@@ -1,7 +1,7 @@
 {
     "name": "alifaraji/welcomerobot",
     "type": "phpbb-extension",
-    "description": "This extention create new topic when someone register in board and signs in. this can be a welcome message topic or anything that make new user active and responsive.",
+    "description": "This extension create new topic when someone register in board and signs in. this can be a welcome message topic or anything that make new user active and responsive.",
     "homepage": "https://github.com/alifaraji/welcomerobot",
     "version": "1.0.0",
     "time": "2014-12-24",
