@@ -118,6 +118,7 @@ class listener implements EventSubscriberInterface
 		'forum_id'            => $this->config['welcomerobot_forum'], // The forum ID in which the post will be placed. (int)
 		'topic_id'            => 0, // Post a new topic or in an existing one? Set to 0 to create a new one, if not, specify your topic ID here instead.
 		'icon_id'            => false,    // The Icon ID in which the post will be displayed with on the viewforum, set to false for icon_id. (int)
+		'robot_name'            => $this->config['welcomerobot_username'],
 		
 		// Defining Post Options
 		'enable_bbcode'    => true,    // Enable BBcode in this post. (bool)
@@ -142,7 +143,7 @@ class listener implements EventSubscriberInterface
 		'force_approved_state'    => true, // Allow the post to be submitted without going into unapproved queue
 		);
 		
-		submit_post('post', $topic_title, $this->config['welcomerobot_username'], POST_NORMAL, $poll, $data);
+		submit_post('post', 'topic_title', 'robot_name', POST_NORMAL, $poll, $data);
 		
 		return true;
 	}
