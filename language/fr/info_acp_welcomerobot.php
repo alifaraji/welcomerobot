@@ -36,4 +36,5 @@ $lang = array_merge($lang, array(
 	'ACP_WELCOMEROBOT_SUCCESS'						=> 'Paramètres sauvegardés avec succès.',
 	'ACP_WELCOMEROBOT_ERROR'						=> 'Le nom de l’auteur est invalide.',
 	'ACP_WELCOMEROBOT_ERROR2'						=> 'Sélectionner un forum.',
+	'ACL_A_WELCOMEROBOT_MOD'						=> 'Peut gérer le sujet automatique de bienvenue.',
 ));
