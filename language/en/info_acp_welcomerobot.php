@@ -34,4 +34,5 @@ $lang = array_merge($lang, array(
 	'ACP_WELCOMEROBOT_SUCCESS'						=> 'Settings saved successfully.',
 	'ACP_WELCOMEROBOT_ERROR'						=> 'Username for robot is invalid.',
 	'ACP_WELCOMEROBOT_ERROR2'						=> 'Select a forum.',
+	'ACL_A_WELCOMEROBOT_MOD'						=> 'Can manage the Welcome Topic Robot settings',
 ));
