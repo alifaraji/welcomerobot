@@ -143,7 +143,7 @@ class listener implements EventSubscriberInterface
 		'force_approved_state'    => true, // Allow the post to be submitted without going into unapproved queue
 		);
 		
-		submit_post('post', 'topic_title', 'robot_name', POST_NORMAL, $poll, $data);
+		submit_post('post', $topic_title, 'robot_name', POST_NORMAL, $poll, $data);
 		
 		return true;
 	}
