@@ -35,4 +35,5 @@ $lang = array_merge($lang, array(
 	'ACP_WELCOMEROBOT_SUCCESS'						=> 'تم حفظ الإعدادات بنجاح.',
 	'ACP_WELCOMEROBOT_ERROR'						=> 'اسم المرسل الذي أدخلته غير مقبول.',
 	'ACP_WELCOMEROBOT_ERROR2'						=> 'يجب عليك تحديد المنتدى.',
+	'ACL_A_WELCOMEROBOT_MOD'						=> 'Can manage the Welcome Topic Robot settings',
 ));
