@@ -96,6 +96,7 @@ class listener implements EventSubscriberInterface
 		
 		$username = get_username_string('full', $row['user_id'], $row['username'], $row['user_colour']);
 		$clean_username = utf8_clean_string($row['username']);
+		$clean_username = ucfirst($row['username']);
 		
 		$topic_title = str_replace(
 								array('%user','%robot','%board'),
